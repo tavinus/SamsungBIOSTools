@@ -22,7 +22,7 @@ One of the most important steps is to find out what BIOS family your computer us
 ### BIOSUpdate.exe
 Samsung does not make it easy as they could here. They have a software that downloads the latest version of your recommended BIOS, but it is no longer listed anywhere in their webpage. It is only available through `SW Update` and it will not be offered if you already have the latest BIOS.
 
-One oficial link is: http://downloadcenter.samsung.com/content/FM/201203/20120306155317061/BIOSUpdate.exe
+One official link is: http://downloadcenter.samsung.com/content/FM/201203/20120306155317061/BIOSUpdate.exe
 
 It is not that hard to find copies on other sites though, just Google "BIOSUpdate.exe" (at your own risk). After running, hit Download to get the latest version file. It is good practice to check if the downloaded version Hardware ID matches the current installed BIOS (read below).
 
@@ -187,12 +187,12 @@ Because of this mechanic, I made a bit of an effort to compile a more complete a
 
 I made a few bash scripts to help me process, gather, filter and sort the data. [They are in the lists folder](lists/)
 
-Because my compilation also includes the latest BIOS for all possible Hardware IDs (in theory), you should be able to do a simple text search for your Hardware ID and find at least one BIOS (the latest as of 2021/04/08). If an older version ever made into the list, you will also find it in the same search.
+Because my compilation also includes the latest BIOS for all possible Hardware IDs (in theory), you should be able to do a simple text search for your Hardware ID and find at least one BIOS (the latest as of 2021/04/22). If an older version ever made into the list, you will also find it in the same search.
 
 The file [ITEM_List.txt](ITEM_List.txt) is the compilation of all the data I was able to gather from:
 
  - **BIOSItemList(112912).xml:** List from Nov 2012 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
  - **BIOSItemList (Google Cache Jan 31 2013).txt:** List from Jan 2013 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
  - **Tavinus01.txt:** I manually copy-pasted all `'ITEM_XXX.exe'` that anyone posted as found in [the 38 pages here](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/)
- - **PermutedLatest_20210408.txt:** I created a list with all possible permutations from AAA to ZZZ and then tried to get the latest BIOS file name to each of them, discarding invalid responses. This is the most complete and recent list of latest BIOS files and adds a lot to the guessing pool.
+ - **PermutedLatest_20210422.txt:** I created a list with all possible permutations from AAA to ZZZ and then tried to get the latest BIOS file name to each of them, discarding invalid responses. This is the most complete and recent list of latest BIOS files and adds a lot to the guessing pool.
 
