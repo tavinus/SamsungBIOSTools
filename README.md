@@ -189,7 +189,7 @@ I made a few bash scripts to help me process, gather, filter and sort the data. 
 
 Because my compilation also includes the latest BIOS for all possible Hardware IDs (in theory), you should be able to do a simple text search for your Hardware ID and find at least one BIOS (the latest as of 2021/04/22). If an older version ever made into the list, you will also find it in the same search.
 
-The file [ITEM_List.txt](ITEM_List.txt) is the compilation of all the data I was able to gather from:
+The file [ItemList.txt](ItemList.txt) is the compilation of all the data I was able to gather from:
 
  - **BIOSItemList(112912).xml:** List from Nov 2012 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
  - **BIOSItemList (Google Cache Jan 31 2013).txt:** List from Jan 2013 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
