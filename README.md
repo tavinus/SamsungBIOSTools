@@ -8,7 +8,7 @@ To make things worse, Samsung decided to hide all BIOS downloads from the public
 
 Needless to say, older BIOS versions are even harder to find, but there are some tricks that can help you finding yours.
 
-Most of the data and tools gathered here came from [this thread](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/) in http://forum.notebookreview.com. It is a pretty old and long thread with lots of valuable information. It can also be a bit confusing and overwhelming.
+Most of the data and tools gathered here came from [this thread](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/) in http://forum.notebookreview.com. It is a pretty old and long thread with lots of valuable information. It can also be a bit confusing and overwhelming.
 
 I am creating this repo to organize the data and knowledge from the thread into a smaller and simpler footprint. It is also a way to backup the data from there while adding valuable new information.
 
@@ -112,7 +112,7 @@ If you are already running the latest BIOS and try to reinstall the Samsung's in
 ## Extracting Installer files
 Samsung uses several vendors for its BIOS, which translates into having to deal with different programs and formats, depending on each machine.
 
-It is kind of a pain to get to the files inside the installer. The easier way is to fetch them from the `%temp%` folder. Depending on your installer this will be more difficult, because some installers only extract the BIOS files after you hit continue and then immediatelly delete the files after using or cancelling execution. This is what happened to me, so I used a script to copy the files continuously. [credits t456](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/page-37#post-10801070)
+It is kind of a pain to get to the files inside the installer. The easier way is to fetch them from the `%temp%` folder. Depending on your installer this will be more difficult, because some installers only extract the BIOS files after you hit continue and then immediatelly delete the files after using or cancelling execution. This is what happened to me, so I used a script to copy the files continuously. [credits t456](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/page-37#post-10801070)
 
 Download [the script](#) or create `getSamsungFiles.cmd` with this content:
 
@@ -191,8 +191,8 @@ Because my compilation also includes the latest BIOS for all possible Hardware I
 
 The file [ItemList.txt](ItemList.txt) is the compilation of all the data I was able to gather from:
 
- - **BIOSItemList(112912).xml:** List from Nov 2012 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
- - **BIOSItemList (Google Cache Jan 31 2013).txt:** List from Jan 2013 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
+ - **BIOSItemList(112912).xml:** List from Nov 2012 ([link](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
+ - **BIOSItemList (Google Cache Jan 31 2013).txt:** List from Jan 2013 ([link](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
  - **Tavinus01.txt:** I manually copy-pasted all `'ITEM_XXX.exe'` that anyone posted as found in [the 38 pages here](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/)
  - **PermutedLatest_20210422.txt:** I created a list with all possible permutations from AAA to ZZZ and then tried to get the latest BIOS file name to each of them, discarding invalid responses. This is the most complete and recent list of latest BIOS files and adds a lot to the guessing pool.
 
