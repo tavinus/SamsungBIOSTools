@@ -8,7 +8,7 @@ To make things worse, Samsung decided to hide all BIOS downloads from the public
 
 Needless to say, older BIOS versions are even harder to find, but there are some tricks that can help you finding yours.
 
-Most of the data and tools gathered here came from [this thread](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/) in http://forum.notebookreview.com. It is a pretty old and long thread with lots of valuable information. It can also be a bit confusing and overwhelming.
+Most of the data and tools gathered here came from [this thread](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/) in [forum.notebookreview.com](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com). It is a pretty old and long thread with lots of valuable information. It can also be a bit confusing and overwhelming.
 
 I am creating this repo to organize the data and knowledge from the thread into a smaller and simpler footprint. It is also a way to backup the data from there while adding valuable new information.
 
