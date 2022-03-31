@@ -193,6 +193,6 @@ The file [ItemList.txt](ItemList.txt) is the compilation of all the data I was a
 
  - **BIOSItemList(112912).xml:** List from Nov 2012 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
  - **BIOSItemList (Google Cache Jan 31 2013).txt:** List from Jan 2013 ([link](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/))
- - **Tavinus01.txt:** I manually copy-pasted all `'ITEM_XXX.exe'` that anyone posted as found in [the 38 pages here](http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/)
+ - **Tavinus01.txt:** I manually copy-pasted all `'ITEM_XXX.exe'` that anyone posted as found in [the 38 pages here](https://web.archive.org/web/20220125061117/http://forum.notebookreview.com/threads/samsung-laptops-roll-back-bios-updates.696197/)
  - **PermutedLatest_20210422.txt:** I created a list with all possible permutations from AAA to ZZZ and then tried to get the latest BIOS file name to each of them, discarding invalid responses. This is the most complete and recent list of latest BIOS files and adds a lot to the guessing pool.
 
